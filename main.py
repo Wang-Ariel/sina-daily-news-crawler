@@ -1,9 +1,3 @@
-"""
-以下为对程序的说明：
-1.在我的电脑上运行约需30分钟（即一天的新闻约需一分钟）
-2.没有artibody/正文模块的链接未能扒出（来自新浪新闻之外的网页），数量极小
-"""
-
 dataFile=open("news20081001-20081031.txt","w",encoding="utf-8")
 from urllib import request
 mediaList=[]
